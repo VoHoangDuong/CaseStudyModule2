@@ -25,6 +25,7 @@ public class WareHouseService {
 
     public boolean remove(String maSP) throws Exception{
         boolean result = wareHouseDB.remove(maSP);
+        wareHouseDB.saveFile();
         return result;
     }
 

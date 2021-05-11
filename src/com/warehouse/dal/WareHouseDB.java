@@ -30,7 +30,7 @@ public class WareHouseDB {
         }
     }
 
-    public void add(WareHouse wareHouse) throws Exception{
+    public void add(WareHouse wareHouse){
         wareHouseList.put(wareHouse.getMaSP(), wareHouse);
     }
 
@@ -66,7 +66,7 @@ public class WareHouseDB {
     }
 
     public boolean remove(String maSP) throws Exception{
-        boolean result = wareHouseList.remove(maSP) == null ? true : false;
+        boolean result = wareHouseList.remove(maSP) == null;
         return result;
     }
 }

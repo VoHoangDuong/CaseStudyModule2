@@ -109,8 +109,7 @@ public class MainWareHouse {
                 wareHouseService.remove(maSP);
             } catch (Exception e) {
                 e.printStackTrace();
-            }
-            System.out.println("Đã xóa sản phẩm " + wareHouseService.find(maSP).getName() + " khỏi kho hàng");
+            }System.out.println("Đã xóa " + wareHouse.getName() + " khỏi kho hàng");
         }
     }
 
