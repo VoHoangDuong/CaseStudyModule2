@@ -7,7 +7,7 @@ Nội dung Case Study:
 -Chương trình về quản lý nhà kho(WareHouse).
 + Model(WareHouese).
 + Dal(WareHouseDB).
-+ Serve(WareHouseService).
++ Service(WareHouseService).
 + Presentation(MainWareHouse).
 
 - Các chức năng như :
