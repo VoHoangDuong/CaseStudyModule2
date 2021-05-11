@@ -35,7 +35,7 @@ Nội dung Case Study:
   . Tên
   . Ngày sản xuất
   . Hạn sử dụng
-  . Còn lại bao nhiêu ngày(chức năng chưa hoàn thiện vì tính ngày còn sai).
+  . Còn lại bao nhiêu ngày(tính ngày còn sai).
 
 + Hiển thị trạng thái tất cả hàng hóa trong kho:
   . Tên
